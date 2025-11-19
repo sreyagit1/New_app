@@ -36,18 +36,20 @@ The entire application is containerized using **Docker**, making it easy to run 
 
 ```bash 
 1️⃣ Pull the Docker image
-bash
+
 docker pull sreyak07/news-sentiment-app:latest
 2️⃣ Run the container
-bash
+
 Copy code
 docker run -p 8501:8501 sreyak07/news-sentiment-app:latest
 3️⃣ Open the app in your browser
 arduino
 Copy code
 http://localhost:8501
+```
+
 📁 Project Structure
-bash
+```
 Copy code
 news-app/
 │── real_time_news_sentiment.py   # Main Streamlit app
@@ -55,6 +57,7 @@ news-app/
 │── Dockerfile                    # Docker build file
 │── predictions_parquet/          # Auto-saved sentiment results
 └── README.md                     # Project documentation
+```
  Technologies Used
 Python 3.10
 
@@ -86,10 +89,11 @@ Streams everything via Streamlit UI
  Build Docker Image (Optional)
 If you want to build the image yourself:
 
-bash
+```
 Copy code
 docker build -t news-sentiment-app .
 docker run -p 8501:8501 news-sentiment-app
+```
  Author
 Sreya K
 Real-Time Sentiment Analysis Project
