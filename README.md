@@ -34,7 +34,7 @@ The entire application is containerized using **Docker**, making it easy to run 
 
 ##  Run With Docker (Recommended)
 
-'''bash 
+```bash 
 1️⃣ Pull the Docker image
 bash
 docker pull sreyak07/news-sentiment-app:latest
