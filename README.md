@@ -96,6 +96,7 @@ docker run -p 8501:8501 news-sentiment-app
 ```
  Author
 Sreya K
+
 Real-Time Sentiment Analysis Project
 Fully Dockerized Streamlit App
 
