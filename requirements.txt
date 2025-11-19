@@ -1,0 +1,8 @@
+streamlit
+pandas
+plotly
+vaderSentiment
+feedparser
+pyarrow
+
+
